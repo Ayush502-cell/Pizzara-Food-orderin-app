@@ -1,4 +1,4 @@
-const URL = "https://gist.githubusercontent.com/kshirsagarps/36fade16fa39202715656ef487aaf7b0/raw/2b682e589ef283f06be42d2799dfa54f57794a6e/Pizza.json";
+const URL = "https://raw.githubusercontent.com/Ayush502-cell/Pizzara-Food-orderin-app/main/Scripts/assets/pizza.json"
 async function makeNetworkCall(){
     try{
         const response = await fetch(URL);
